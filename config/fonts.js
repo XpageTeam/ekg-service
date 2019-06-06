@@ -2,7 +2,7 @@ module.exports = {
 	formats: 'local woff woff2',
 	display: "swap",
 	custom: {
-		"Montserrat": {
+		"Futura": {
 			variants: {
 				normal: {
 					300: {
