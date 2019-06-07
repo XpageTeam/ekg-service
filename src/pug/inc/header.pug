@@ -1,0 +1,24 @@
+.head
+	.head__wrap.wrapper
+		.head__search-form
+		.head__logo
+			a.logo(href="#")
+				img(src="img/logo.svg")
+			nav.head__menu
+				ul.h-menu
+					li
+						a.h-menu__link.active(href="#") Каталог
+					each item in [""]
+						li
+							a.h-menu__link.active(href="#")
+			.hed__phone
+				address.h-phone
+					a(href="tel: ")
+			.head__search
+				button.h-search-link
+			.head__language
+				.h-language
+					a.h-language__link.active(href="#") ru
+					a.h-language__link(href="#") en
+			.head__burger
+				.burger
